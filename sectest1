@@ -1,0 +1,96 @@
+<template>
+  <v-app>
+    <v-container>
+      <!-- Hero Section -->
+      <v-row class="text-center my-10">
+        <v-col>
+          <h1 class="display-1">Staking des SEC Coins</h1>
+          <p class="subtitle-1">Laugh, Stake, Earn: Sei Teil der Revolution!</p>
+        </v-col>
+      </v-row>
+
+      <!-- Introduction -->
+      <v-row class="my-10">
+        <v-col>
+          <h2>Einleitung</h2>
+          <p>
+            Der SEC Coin ist mehr als ein Meme-Coin – er ist eine Hommage an einen der größten Rechtsstreite der Krypto-Geschichte,
+            kombiniert mit einer der schnellsten und effizientesten Blockchain-Technologien: dem XRP Ledger.
+          </p>
+          <v-img src="path-to-introduction-image.jpg" alt="SEC Coin Introduction" max-height="300"></v-img>
+        </v-col>
+      </v-row>
+
+      <!-- Technologische Vorteile -->
+      <v-row class="my-10">
+        <v-col>
+          <h2>Technologische Vorteile des XRP Ledgers</h2>
+          <ul>
+            <li>Schnelle Transaktionen: Nur 3-5 Sekunden pro Transaktion.</li>
+            <li>Geringe Transaktionskosten: 0,00001 XRP pro Transfer.</li>
+            <li>Energieeffizient dank RPCA-Algorithmus.</li>
+          </ul>
+          <v-img src="path-to-technology-image.jpg" alt="Technological Advantages" max-height="300"></v-img>
+        </v-col>
+      </v-row>
+
+      <!-- Staking Platform -->
+      <v-row class="my-10">
+        <v-col>
+          <h2>Staking-Plattform</h2>
+          <p>
+            Unser Staking-Mechanismus belohnt treue Nutzer mit stabilen Renditen:
+          </p>
+          <ul>
+            <li>Halbjährliche Renditen: 5 %</li>
+            <li>Jährliche Renditen: Bis zu 12 %</li>
+            <li>Flexibilität: Verschiedene Laufzeiten</li>
+            <li>Sicherheit: Smart-Contract-Technologie</li>
+          </ul>
+          <v-img src="path-to-staking-image.jpg" alt="Staking Platform" max-height="300"></v-img>
+        </v-col>
+      </v-row>
+
+      <!-- Roadmap -->
+      <v-row class="my-10">
+        <v-col>
+          <h2>Roadmap</h2>
+          <p>Wir arbeiten daran, den SEC Coin und die Plattform stetig weiterzuentwickeln:</p>
+          <ul>
+            <li><strong>Q1 2024:</strong> Start des SEC Coins und Aufbau der Staking-Plattform.</li>
+            <li><strong>Q2 2024:</strong> Erste Airdrops und Beta-Test der Plattform.</li>
+            <li><strong>Q3 2024:</strong> Offizieller Launch der Staking-Plattform.</li>
+            <li><strong>Q4 2024:</strong> Integration in Krypto-Börsen und Planung von NFT-Integrationen.</li>
+          </ul>
+          <v-img src="path-to-roadmap-image.jpg" alt="Roadmap" max-height="300"></v-img>
+        </v-col>
+      </v-row>
+
+      <!-- Conclusion -->
+      <v-row class="text-center my-10">
+        <v-col>
+          <h2>Schlussfolgerung</h2>
+          <p>
+            Der SEC Coin kombiniert Humor, Technologie und finanzielle Freiheit.
+            Unterstützt durch den XRP Ledger und die Kraft der Community, bietet er Unterhaltung und reale Anwendungen.
+          </p>
+          <p>Sei Teil der Bewegung und stake jetzt!</p>
+          <v-btn color="primary" large>Jetzt Staken</v-btn>
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-app>
+</template>
+
+<script>
+export default {
+  name: "SecCoinStaking",
+};
+</script>
+
+<style scoped>
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+</style>
